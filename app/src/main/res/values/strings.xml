@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Ltts</string>
+    <string-array name="Winners_List">
+        <item>Singing (Male version)</item>
+        <item>Singing (Female version)</item>
+        <item>Dancing</item>
+        <item>Sketching</item>
+        <item>Special Entry</item>
+        <item>Graphic Designing</item>
+        <item>Photography</item>
+        <item>Craft Work</item>
+        <item>Poetry</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>By : S Sai Madhan</item>
+        <item>By : Bala Sirisha S P</item>
+        <item>By : M R Lakshmi Priya</item>
+        <item>By : S Bahieradan</item>
+        <item>By : Nithya P</item>
+        <item>By : Yash Raj</item>
+        <item>By : Deeksha P</item>
+        <item>By : Divya P</item>
+        <item>By : Hrithik Hiran</item>
+    </string-array>
 </resources>

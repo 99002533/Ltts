@@ -1,66 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="30dp"
+android:background="@drawable/background"
+
+tools:context=".MainActivity">
+
+
+
+<TextView
+    android:id="@+id/textview1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="TS GOT TALENT"
+    android:textColor="#eb9834"
+    android:textSize="28sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:drawableLeft="@drawable/username"
+    android:hint="User Email id"
+    android:inputType="textEmailAddress"
+    android:layout_marginTop="40dp"
+    android:layout_below="@+id/textview1"/>
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:drawableLeft="@drawable/password"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:layout_marginTop="40dp"
+    android:layout_below="@+id/username"/>
+
+<EditText
+    android:id="@+id/cfpassword"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:drawableLeft="@drawable/password"
+    android:hint="Confirm Password"
+    android:inputType="textPassword"
+    android:layout_marginTop="40dp"
+    android:layout_below="@+id/password"/>
+
+<Button
+    android:id="@+id/btnsignup"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="30dp"
-    android:background="@drawable/background"
-
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textview1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-
-        android:text="TS GOT TALENT"
-        android:textColor="#eb9834"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:drawableLeft="@drawable/username"
-        android:hint="User Name"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/textview1"/>
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:drawableLeft="@drawable/password"
-        android:hint="Password"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/username"/>
-
-    <EditText
-        android:id="@+id/cfpassword"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:hint="Confirm Password"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/password"/>
-
-    <Button
-        android:id="@+id/btnsignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/cfpassword"/>
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:layout_marginTop="40dp"
+    android:layout_below="@+id/cfpassword"/>
 
     <Button
         android:id="@+id/btnsignin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Existing User! Go to Sign in Page"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/btnsignup"/>
+
+
 
 
 </RelativeLayout>
