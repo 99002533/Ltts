@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     ArrayList<MainModel> mainModels;
     MainAdapter mainAdapter;
-    private Button glimpseButton,winnersButton;
+    private Button glimpseButton, winnersButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
